@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Frontend Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader">Loading...</div>
+
+  <header>
+    <h1>Creative Web Studio</h1>
+    <nav>
+      <a href="#showcase">Work</a>
+      <a href="#features">Services</a>
+      <a href="#customers">Customers</a>
+      <a href="#testimonials">Testimonials</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="stars" id="stars"></div>
+    <h2>Design. Code. Inspire.</h2>
+    <p>We build next-gen user experiences</p>
+  </div>
+
+  <section id="showcase">
+    <h2>Our Showcase</h2>
+    <div class="carousel fade-in">
+      <div class="card">Project A - Clean UI</div>
+      <div class="card">Project B - Responsive Design</div>
+      <div class="card">Project C - Modern Animations</div>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Our Services</h2>
+    <div class="features fade-in">
+      <div class="card">Web Development</div>
+      <div class="card">UI/UX Design</div>
+      <div class="card">SEO & Optimization</div>
+    </div>
+  </section>
+
+  <section id="customers">
+    <h2>Our Customers</h2>
+    <div class="customers fade-in">
+      <div class="card">Amazon</div>
+      <div class="card">Google</div>
+      <div class="card">Netflix</div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonials fade-in">
+      <div class="card testimonial">"Amazing service and results!"</div>
+      <div class="card testimonial">"They transformed our vision into reality."</div>
+      <div class="card testimonial">"Highly recommend for clean web design."</div>
+    </div>
+  </section>
+
+  <section id="graph">
+    <h2>Interactive Graph</h2>
+    <canvas id="myChart" width="600" height="300"></canvas>
+  </section>
+
+  <footer>
+    <p>© 2025 Creative Web Studio. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
